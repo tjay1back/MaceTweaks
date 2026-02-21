@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>MaceTweaks.ico</ApplicationIcon>
+    <AssemblyName>MaceTweaks</AssemblyName>
+    <RootNamespace>MaceTweaks</RootNamespace>
+    <Version>2.1.0</Version>
+    <Company>PeakJayX</Company>
+    <Product>MaceTweaks</Product>
+    <Description>MaceTweaks - Macro Tool</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="MaceTweaks.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autoupdater.NET.Official" Version="1.9.2" />
+  </ItemGroup>
+
+</Project>
